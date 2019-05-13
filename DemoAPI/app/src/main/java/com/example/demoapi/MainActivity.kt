@@ -192,7 +192,7 @@ class MainActivity : AppCompatActivity() {
         if (!TextUtils.isEmpty(email))
             mFirebaseDatabase!!.child(userId.toString()).child("email").setValue(email)
 
-        
+
     }
 
 }
